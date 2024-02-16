@@ -9,11 +9,11 @@ function Tutor() {
 export default Tutor;
 
 const StWonjangBanner = styled.img`
-  width: 410px;
+  width: 400px;
   height: 180px;
 
   @media (max-width: 428px) {
-    width: 350px;
-    height: 160px;
+    width: 340px;
+    height: 155px;
   }
 `;

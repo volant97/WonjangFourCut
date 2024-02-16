@@ -43,17 +43,18 @@ const StContainer = styled.div`
   position: relative;
   background-color: white;
   color: white;
-  width: 410px;
-  height: 500px;
-  padding: 20px;
+  width: 400px;
+  height: auto;
+  padding: 17px 0 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 15px;
+  border-radius: 2px;
 
   img {
-    width: 170px;
+    width: 175px;
     height: 215px;
     cursor: pointer;
   }
@@ -64,32 +65,42 @@ const StContainer = styled.div`
     color: #2b2b2b;
     font-size: 13px;
     font-weight: 600;
-    bottom: 3.5px;
+    bottom: 5px;
   }
 
   h1 {
-    left: 22px;
+    left: 17px;
   }
 
   h2 {
-    right: 22px;
+    right: 17px;
   }
 
   @media (max-width: 428px) {
-    width: 350px;
-    height: 430px;
-    gap: 20px;
+    width: 340px;
+    // height: 430px;
+    height: auto;
+    gap: 12px;
+    padding: 12px 0 23px;
 
     img {
-      width: 145px;
-      height: 180px;
+      width: 150px;
+      height: 190px;
     }
 
     h1,
     h2 {
       font-size: 12px;
       font-weight: 600;
-      bottom: 3.8px;
+      bottom: 4.8px;
+    }
+
+    h1 {
+      left: 14px;
+    }
+
+    h2 {
+      right: 14px;
     }
   }
 `;
