@@ -32,7 +32,6 @@ const StOuterFrame = styled.div`
 `;
 
 const StContainer = styled.div`
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: start;
