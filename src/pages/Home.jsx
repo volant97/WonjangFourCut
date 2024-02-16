@@ -42,11 +42,12 @@ const StContainer = styled.div`
   height: 100dvh;
   padding: 50px 0;
   gap: 30px;
+  overflow-x: hidden;
   overflow-y: scroll;
 
   @media (max-width: 428px) {
     max-width: 428px;
-    padding: 30px;
+    padding: 30px 0;
   }
 `;
 
