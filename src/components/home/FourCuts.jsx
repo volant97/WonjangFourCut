@@ -31,6 +31,8 @@ function FourCuts() {
         alt="background"
         onClick={() => handleTitleClick("eunbi")}
       />
+      <h1>원장네컷</h1>
+      <h2>2024.02.19</h2>
     </StContainer>
   );
 }
@@ -38,6 +40,7 @@ function FourCuts() {
 export default FourCuts;
 
 const StContainer = styled.div`
+  position: relative;
   background-color: white;
   color: white;
   width: 410px;
@@ -48,11 +51,28 @@ const StContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 25px;
-  cursor: pointer;
 
   img {
     width: 170px;
     height: 215px;
+    cursor: pointer;
+  }
+
+  h1,
+  h2 {
+    position: absolute;
+    color: #2b2b2b;
+    font-size: 13px;
+    font-weight: 600;
+    bottom: 3.5px;
+  }
+
+  h1 {
+    left: 22px;
+  }
+
+  h2 {
+    right: 22px;
   }
 
   @media (max-width: 428px) {
@@ -63,6 +83,13 @@ const StContainer = styled.div`
     img {
       width: 145px;
       height: 180px;
+    }
+
+    h1,
+    h2 {
+      font-size: 12px;
+      font-weight: 600;
+      bottom: 3.8px;
     }
   }
 `;
