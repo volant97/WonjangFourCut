@@ -26,6 +26,8 @@ const StOuterFrame = styled.div`
   align-items: start;
   text-align: center;
   background-color: #212121;
+  overflow-x: hidden;
+  overflow-y: hidden;
   ::-webkit-scrollbar {
     display: none;
   }
