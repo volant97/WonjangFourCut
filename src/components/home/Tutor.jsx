@@ -88,15 +88,18 @@ const StModal = styled.div`
   /* transform: translateY(-50%); */
 
   button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 5px;
     background: none;
     border: none;
     cursor: pointer;
-    /* border: 2px solid; */
+    border: 2px solid;
   }
 
   img {
