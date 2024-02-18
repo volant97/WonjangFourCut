@@ -99,7 +99,7 @@ const StModal = styled.div`
     background: none;
     border: none;
     cursor: pointer;
-    border: 2px solid;
+    /* border: 2px solid; */
   }
 
   img {
