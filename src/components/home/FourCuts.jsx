@@ -3,7 +3,7 @@ import styled from "styled-components";
 import hamin from "../../assets/hamin.png";
 import changgeun from "../../assets/changgeun.png";
 import sangwook from "../../assets/sangwook.png";
-import background from "../../assets/background.png";
+import eunbi from "../../assets/eunbi.png";
 import { useNavigate } from "react-router-dom";
 
 function FourCuts() {
@@ -26,11 +26,7 @@ function FourCuts() {
         alt="sangwook"
         onClick={() => handleTitleClick("sangwook")}
       />
-      <img
-        src={background}
-        alt="background"
-        onClick={() => handleTitleClick("eunbi")}
-      />
+      <img src={eunbi} alt="eunbi" onClick={() => handleTitleClick("eunbi")} />
       <h1>원장네컷</h1>
       <h2>2024.02.19</h2>
     </StContainer>

@@ -52,6 +52,7 @@ const StContainer = styled.div`
 `;
 
 const StContentBox = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: start;
