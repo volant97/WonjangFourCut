@@ -25,7 +25,7 @@ function Tutor() {
   const handelOpenBtn = () => {
     if (pw === "20240219") return setIsOpenGift(true);
     setPw("");
-    alert("비밀번호가 틀렸습니다. 추억을 다시 떠오려보세요!");
+    alert("비밀번호가 틀렸습니다. 추억을 다시 떠올려보세요!");
   };
 
   return (
