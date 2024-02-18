@@ -38,6 +38,12 @@ function Tutor() {
             <img src={gift} alt="gift" />
           ) : (
             <StUnlock>
+              <h2>
+                이번엔 저희가 <br />
+                <span>스타벅스</span>
+                <br />
+                준비했습니다!
+              </h2>
               <h1>추억을 잠금해제</h1>
               <input type="text" value={pw} onChange={handleInput} />
               <div className="openBtn" onClick={handelOpenBtn}>
@@ -120,6 +126,19 @@ const StUnlock = styled.div`
   height: 480px;
   border: 2px solid #ffd9a8;
 
+  h2 {
+    position: absolute;
+    top: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height: 23px;
+
+    span {
+      color: #ffd9a8;
+    }
+  }
+
   h1 {
     font-size: 18px;
     font-weight: 600;
@@ -128,7 +147,7 @@ const StUnlock = styled.div`
 
   input {
     width: 130px;
-    height: 30px;
+    height: 35px;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
